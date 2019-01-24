@@ -9,7 +9,7 @@
 [class*="profile-"] [class*="status-"],
 [class*="modal-"] [class*="listScroller-"] [class*="status-"],
 [class*="autocomplete-"] [class*="avatarStatus-"],
-[class*="channels-"] [class^="container-"] [class*="status-"]{
+[class*="channels-"] [class^="container-"] [class*="status-"]:not(.rtc-connection-status) {
     left: 0 !important;
     top: 0 !important;
     background-color: transparent !important;
@@ -41,7 +41,7 @@
 [class*="privateChannels-"] [class*="channel-"] [class*="status-"],
 [class*="modal-"] [class*="avatarSmall-"] [class*="status-"],
 [class*="member-"] [class*="status-"],
-[class*="channels-"] [class^="container-"] [class*="status-"] {
+[class*="channels-"] [class^="container-"] [class*="status-"]:not(.rtc-connection-status) {
     height: 30px !important;
     width: 30px !important;
     border-radius: 30px !important;
